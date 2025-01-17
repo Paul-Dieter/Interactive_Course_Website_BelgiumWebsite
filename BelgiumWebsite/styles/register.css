@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://images.unsplash.com/photo-1499914485622-a88fac536970?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height:100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form{
+    margin: 2rem;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+input, select{
+    display: block;
+    width: 15rem;
+    height: 1.8rem;
+    margin: 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.Enroll-button{
+    background: rgba(236, 178, 91, 0.878);
+    border-radius: 8px;
+    width: 12rem;
+    height:1.8rem;
+    font-size: 1.2rem;
+    color: #000000;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.Enroll-button:hover{
+    background-color: rgb(241, 163, 18);
+    color: #fff;
+    cursor: pointer;
+}
+
+.input{
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.Enrolment-Heading{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.Enrolment-Heading span{
+    color: rgba(240, 175, 34, 0.877);
+}
+
+.input::placeholder{
+    color: #fff;
+}
+
+.select option{
+    background-color: rgb(29, 133, 133);
+}
+
+.enrolment-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1499914485622-a88fac536970?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+#output{
+    color: #fff;
+}

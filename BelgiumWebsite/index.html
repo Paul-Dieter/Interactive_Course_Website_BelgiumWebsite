@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BelgiumCampusProjectWrp281</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/popup_logIn_styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles/popup_register_styles.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="#" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z"/>
+          </svg>
+          <span class="link-text">Login</span>
+        </a>
+      </li>
+  
+      <!-- Home list Item -->
+      <li class="nav-item">
+        <a href="#header" class="nav-link">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
+          </svg>
+          <span class="link-text">HOME</span>
+        </a>
+      </li>
+  
+      <!-- Course list Item -->
+      <li class="nav-item">
+        <a href="#h2-background" class="nav-link">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/>
+          </svg>
+          <span class="link-text">COURSES</span>
+        </a>
+      </li>
+  
+      <!-- About list Item -->
+      <li class="nav-item">
+        <a href="#contact" class="nav-link">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <span class="link-text">CONTACT US</span>
+        </a>
+      </li>
+   <!-- Search list Item -->
+   <li class="nav-item">
+    <a href="#search" class="nav-link" id="navSearch">
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 512">
+        <path d="M220.6 130.3l-67.2 28.2V43.2L98.7 233.5l54.7-24.2v130.3l67.2-209.3zm-83.2-96.7l-1.3 4.7-15.2 52.9C80.6 106.7 52 145.8 52 191.5c0 52.3 34.3 95.9 83.4 105.5v53.6C57.5 340.1 0 272.4 0 191.6c0-80.5 59.8-147.2 137.4-158zm311.4 447.2c-11.2 11.2-23.1 12.3-28.6 10.5-5.4-1.8-27.1-19.9-60.4-44.4-33.3-24.6-33.6-35.7-43-56.7-9.4-20.9-30.4-42.6-57.5-52.4l-9.7-14.7c-24.7 16.9-53 26.9-81.3 28.7l2.1-6.6 15.9-49.5c46.5-11.9 80.9-54 80.9-104.2 0-54.5-38.4-102.1-96-107.1V32.3C254.4 37.4 320 106.8 320 191.6c0 33.6-11.2 64.7-29 90.4l14.6 9.6c9.8 27.1 31.5 48 52.4 57.4s32.2 9.7 56.8 43c24.6 33.2 42.7 54.9 44.5 60.3s.7 17.3-10.5 28.5zm-9.9-17.9c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8 8-3.6 8-8z"/>
+      </svg>
+      <span class="link-text">SEARCH</span>
+    </a>
+  </li>
+</ul>
+</nav>
+
+  <main>
+    <!-- Page Content -->
+    <div id="main">
+      <!-- Header/Home -->
+
+      <header id="header">
+        <!--Nested js with h1 heading-->
+        <div id="particles-js">
+          <script src="scripts/particles.js"></script>
+          <script src="scripts/app.js"></script>
+        </div>
+      </header>
+
+      <!-- Course Section -->
+
+      <div class="slider" id="course">
+        <div id="bar-style">
+          <h1>BELGIUM CAMPUS</h1>
+        </div>
+        <!-- Grid for photos -->
+        <div id="image-track-container">
+          <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+            <img class="image"
+              src="https://www.belgiumcampus.ac.za/wp-content/uploads/2023/08/Belgium-Campus-Kempton-Park.png"
+              alt="Belgium Campus Kempton Park" draggable="false">
+            <img class="image"
+              src="https://www.belgiumcampus.ac.za/wp-content/uploads/2023/07/Begium-Campus-iTversity-Dimension-Data-Winter-School-1-1024x607.jpg"
+              alt="Belgium Campus iTversity Dimension Data Winter School" draggable="false">
+            <img class="image"
+              src="https://www.belgiumcampus.ac.za/wp-content/uploads/2023/08/Belgium-Campus-Pretoria.png"
+              alt="Belgium Campus Pretoria" draggable="false">
+            <img class="image"
+              src="https://image-prod.iol.co.za/16x9/800/Belgium-Campus-is-the-first-higher-education-institution-in-the-country-to-offer-a-dedicated-Bachelor-s-degree-and-IT-diploma-for-deaf-students-Pictured-are-the-first-six-deaf-students-to-graduate-with-their-Bachelor-of-Information-Technology-degrees-Photo-Supplied?source=https://iol-prod.appspot.com/image/0c8c73ed3deeb396a0591ab2c605565f9da2373e/2000&operation=CROP&offset=1x0&resize=1998x1124&webp=true"
+              alt="Belgium Campus first deaf students to graduate with Bachelor of Information Technology degrees" draggable="false">
+            <img class="image"
+              src="https://www.belgiumcampus.ac.za/wp-content/uploads/2022/07/10-1.png"
+              alt="Belgium Campus event" draggable="false">
+            <img class="image"
+              src="https://www.belgiumcampus.ac.za/wp-content/uploads/2021/03/Uniforms-2-1024x706-1.jpg"
+              alt="Belgium Campus uniforms" draggable="false">
+            <img class="image"
+              src="https://www.belgiumcampus.ac.za/wp-content/uploads/2023/07/Begium-Campus-iTversity-Dimension-Data-Winter-School-1024x607.jpg"
+              alt="Belgium Campus iTversity Dimension Data Winter School" draggable="false">
+            <img class="image"
+              src="https://www.belgiumcampus.ac.za/wp-content/uploads/2022/07/230569402_1984170328398517_6569800347308216430_n-1024x690.jpeg"
+              alt="Belgium Campus students event" draggable="false">
+            <img class="image"
+              src="https://www.belgiumcampus.ac.za/wp-content/uploads/2020/02/IMG_20191127_131030-scaled-1024x700.jpg"
+              alt="Belgium Campus campus view" draggable="false">
+          </div>
+        </div>
+        
+        
+        <!-- End photo grid -->
+      </div>
+      <!-- End Portfolio Section -->
+    </div>
+
+ <!-- Popup -->
+<div id="popup">
+  <div id="closeButton">&times;</div>
+  <div id="form">
+    <h2>Login</h2>
+    <form action="#">
+      <ul>
+        <li>
+          <input type="text" id="username" name="username" placeholder="Username" required>
+        </li>
+        <li>
+          <input type="password" id="password" name="password" placeholder="Password" required>
+        </li>
+        <li id="checkBox">
+          <input type="checkbox" id="rememberMe" checked="checked">
+          <label for="rememberMe">Remember me.</label>
+        </li>
+        <li>
+          <button onclick="logIn()" type="button">Login</button>
+        </li>
+      </ul>
+      <div id="errorMessage"></div>
+      <div id="id">
+        <ul>
+          <li>
+            <a id="register" href="#">Register</a>
+          </li>
+        </ul>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Register -->
+<div id="popupRegister">
+  <div id="closeButtonRegister">&times;</div>
+  <div id="formRegister">
+    <h2>Register</h2>
+    <form action="/register">
+      <ul>
+        <li>
+          <input type="text" id="usernameRegister" name="usernameRegister" placeholder="Create Username" required>
+        </li>
+        <li>
+          <input type="password" id="passwordRegister" name="passwordRegister" placeholder="Create Password" required>
+        </li>
+        <li>
+          <button onclick="logInRegister()" type="button">Register</button>
+        </li>
+      </ul>
+      <div id="errorMessageRegister"></div>
+      <div id="links">
+        <ul>
+          <li>
+            <a id="forgotPasswordRegister" href="#">LogIn</a>
+          </li>
+        </ul>
+      </div>
+    </form>
+  </div>
+</div>
+
+   
+
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="search">
+      <h2 class="w3-jumbo">Search For Courses </h2>
+
+      <div class="search-container main-container">
+        <i class="fa fa-search"></i>
+        <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+      </div>
+      <div class="main-container" id="selectCourse" >
+        <div id="nothing-alert">Nothing Found</div>
+        <div class="cards" data-value="bachelorOfComputing">
+          <h2 class="icon-name" >Bachelor of Computing</h2>
+        </div>
+        <div class="cards" data-value="bachelorOfInformationTechnology">
+          <h2 class="icon-name">Bachelor of Information Technology</h2>
+        </div>
+        <div class="cards" data-value="diplomaInInformationTechnology">
+          <h2 class="icon-name">Diploma in Information Technology</h2>
+        </div>
+        <div class="cards" data-value="diplomaForDeafStudents">
+          <h2 class="icon-name">Diploma for Deaf Students</h2>
+        </div>
+        <div class="cards" data-value="nationalCertificateITSystems">
+          <h2 class="icon-name">National Certificate: Information Technology (Systems Development)</h2>
+        </div>
+		<div class="cards" data-value="certificateITDatabase">
+          <h2 class="icon-name">Certificate: Information Technology (Database Development)</h2>
+        </div>
+
+      </div>
+
+      <div id="dynamicContent" style="display: none;">
+
+        <section class="infoforcoursedynamic">
+          <h2>Course Information</h2> 
+          <section>
+              <h2>Overview</h2> 
+              <section class="overview">
+                  <div class="TitleBar">
+                      <h2 class="Bcomp">Bachelor of Computing</h2>
+                  </div>
+                  <div class="coursedescription">
+                      <h2>Course Description</h2>
+                  </div>
+      
+                  <section class="specializations">
+                      <h2 class="spec">Specializations</h2>
+                      <button id="toggleSpecializationsBtn">Show Specializations</button>
+                      <div id="specializations" style="display: none"></div>
+                  </section>
+              </section>
+          </section>
+      </section>
+      
+
+          
+
+      
+      <!-- ========================================================================================================-->
+      <!-- Courses-->
+      <!-- ========================================================================================================-->
+        <section class="courses">
+          <div class="courseTitle"><h2>Course Information</h2></div>
+        <div class="year">
+          <button class="year-button" data-year="first">
+            First Academic Year
+          </button>
+          <table id="table-first" style="display: none"></table>
+        </div>
+  
+        <div class="year">
+          <button class="year-button" data-year="second">
+            Second Academic Year
+          </button>
+          <table id="table-second" style="display: none"></table>
+        </div>
+  
+        <div class="year">
+          <button class="year-button" data-year="third">
+            Third Academic Year
+          </button>
+          <table id="table-third" style="display: none"></table>
+        </div>
+  
+        <div class="year">
+          <button class="year-button" data-year="forth">
+            Forth Academic Year
+          </button>
+          <table id="table-forth" style="display: none"></table>
+        </div>
+      </section>
+      </div>
+
+       <!--dynamic end-->
+     
+    </div>
+   
+    <!-- H2 header -->
+
+<!-- Course grid -->
+<div id="h2-background">
+  <h2 id="course-h2">COURSE RESOURCES</h2>
+</div>
+<div class="CountDownTimer">
+  <h2 id="LiamTimerHeading">Time until course Starts</h2>
+  <p id="Timer-Output"></p>
+</div>
+
+<div class="course-grid">
+
+  <div class="course-category full-time">
+    <h2>Full-Time Courses</h2>
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bachelor of Computing">
+      <div class="course-title">Bachelor of <span class="highlight">Computing</span></div>
+      <div class="hover-info">
+        <h3>Bachelor of Computing</h3>
+        <span style="color: white;">Duration: 4 year</span> 
+        <span style="color: white;">NQF: Level 8</span>
+        <span style="color: white;">Credits: 506</span>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/BachelorofComputing.html'">Download Course Details</button>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/EnrolmentForm.html'">Enroll</button>
+      </div>
+    </div>
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bachelor of Information Technology">
+      <div class="course-title">Bachelor of <span class="highlight">Information Technology</span></div>
+      <div class="hover-info">
+        <h3>Bachelor of IT</h3>
+        <span style="color: white;">Duration: 3 year</span> 
+        <span style="color: white;">NQF: Level 7</span>
+        <span style="color: white;">Credits: 360</span>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/BachelorofinformationTechnology.html'">Download Course Details</button>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/EnrolmentForm.html'">Enroll</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="course-category part-time">
+    <h2>Part-Time Courses</h2>
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Diploma in Information Technology">
+      <div class="course-title">Diploma in <span class="highlight">Information Technology</span></div>
+      <div class="hover-info">
+        <h3>Diploma in IT</h3>
+        <span style="color: white;">Duration: 3 year</span> 
+        <span style="color: white;">NQF: Level 6</span>
+        <span style="color: white;">Credits: 360</span>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/DiplomainInformationTechnology.html'">Download Course Details</button>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/EnrolmentForm.html'">Enroll</button>
+      </div>
+    </div>
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Diploma for Deaf Students">
+      <div class="course-title">Diploma for <span class="highlight">Deaf Students</span></div>
+      <div class="hover-info">
+        <h3>Diploma for Deaf Students</h3>
+        <span style="color: white;">Duration: 4 year</span> 
+        <span style="color: white;">NQF: Level 6</span>
+        <span style="color: white;">Credits: 360</span>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/DiplomaforDeafStudents.html'">Download Course Details</button>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/EnrolmentForm.html'">Enroll</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="course-category short-courses">
+    <h2>Short Courses</h2>
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1677594334053-afe4b41aa0a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Certificate: IT (Database Development)">
+      <div class="course-title">Certificate: IT <span class="highlight">(Database Development)</span></div>
+      <div class="hover-info">
+        <h3>Certificate: IT (Database Development)</h3>
+        <span style="color: white;">Duration: 1 year</span> 
+        <span style="color: white;">NQF: Level 6</span>
+        <span style="color: white;">Credits: 120</span>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/Dbdcert.html'">Download Course Details</button>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/EnrolmentForm.html'">Enroll</button>
+      </div>
+    </div>
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1573496358773-bdcdbd984982?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="National Certificate: IT (Systems Development)">
+      <div class="course-title">National Certificate: IT <span class="highlight">(Systems Development)</span></div>
+      <div class="hover-info">
+        <h3>National Certificate: IT (Systems Development)</h3>
+        <span style="color: white;">Duration: 1 year</span> 
+        <span style="color: white;">NQF: Level 5</span>
+        <span style="color: white;">Credits: 131</span>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/NcSystemsDevelopment.html'">Download Course Details</button>
+        <button style="color: white; background-color: orange;" onclick="location.href='html/EnrolmentForm.html'">Enroll</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<button id="manageCourses" style="color: rgb(0, 0, 0); background-color: rgb(255, 166, 0);" onclick="location.href='html/check.html'">MANAGE COURSES</button>
+
+    
+
+   <!-- About -->
+
+<div id="contact">
+  <h2 class="Contact-heading">Contact Us</h2>
+
+  <div class="location1">
+    <p><i class="loc1"><img src="Icons/location.png" alt="Location icon"></i> Pretoria, ZA</p>
+    <p><i class="phone1"><img src="Icons/phone.png" alt="Phone icon"></i><b>Phone:</b> 081 222 3333</p>
+    <p><i class="email1"><img src="Icons/envelope.png" alt="Email icon"></i><b>Email:</b> info.pta@bc.ac.za</p>
+  </div><br>
+  
+  <div class="location2">
+    <p><i class="loc2"><img src="Icons/location.png" alt="Location icon"></i> Stellenbosch, ZA</p>
+    <p><i class="phone2"><img src="Icons/phone.png" alt="Phone icon"></i><b>Phone:</b> 083 444 5555</p>
+    <p><i class="email2"><img src="Icons/envelope.png" alt="Email icon"></i> <b>Email:</b> info.sth@bc.ac.za</p>
+  </div><br>
+  
+  <div class="location3">
+    <p><i class="loc3"><img src="Icons/location.png" alt="Location icon"></i> Johannesburg, ZA</p>
+    <p><i class="phone3"><img src="Icons/phone.png" alt="Phone icon"></i><b>Phone:</b> 082 333 4444</p>
+    <p><i class="email3"><img src="Icons/envelope.png" alt="Email icon"></i><b>Email:</b> info.joh@bc.ac.za</p>
+  </div><br>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="/about">Login</a>
+        <a href="/services">Home</a>
+        <a href="/contact">Courses</a>
+        <a href="/privacy">Search</a>
+      </nav>
+
+
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+     
+  </main>
+  <script src="scripts/coursedynamic.js"></script>
+  <script src="scripts/Enroll-script.js"></script>
+  <script src="scripts/search.js"></script>
+  <script src="scripts/imagetrack.js"></script>
+  <script src="scripts/check.js"></script>
+  <script src="scripts/ARMAND_scripts.js"></script>
+  <script src="scripts/popup.js"></script>
+</body>
+
+
+
+</html>

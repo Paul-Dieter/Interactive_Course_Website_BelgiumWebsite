@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Modules</title>
+    <link rel="stylesheet" href="../styles/linkpages.css">
+</head>
+<body>
+    <a href="../index.html" class="back-button">Back</a>
+    <h1>Course Modules</h1>
+    
+    <label for="courseSelect">Select Course:</label>
+    <select id="courseSelect">
+        <option value="">--Select Course--</option>
+        <option value="bachelorOfComputing">Bachelor of Computing</option>
+        <option value="bachelorOfInformationTechnology">Bachelor of Information Technology</option>
+        <option value="diplomaInInformationTechnology">Diploma in Information Technology</option>
+        <option value="diplomaForDeafStudents">Diploma for Deaf Students</option>
+        <option value="nationalCertificateITSystems">National Certificate: Information Technology (Systems Development)</option>
+        <option value="certificateITDatabase">Certificate: Information Technology (Database Development)</option>
+    </select>
+
+    <label for="yearSelect">Select Year:</label>
+    <select id="yearSelect">
+        <option value="first">1st Year</option>
+        <option value="second">2nd Year</option>
+        <option value="third">3rd Year</option>
+        <option value="forth">4th Year</option>
+    </select>
+    
+    <div class="module-list-container">
+        <ul id="moduleList"></ul>
+        <ul id="completedModules"></ul>
+    </div>
+    <div class="print-button-container">
+        <button id="printCourse">Print Course</button>
+    </div>
+
+    <script src="../scripts/coursedynamic.js"></script> 
+    <script src="../scripts/check.js"></script>
+</body>
+</html>

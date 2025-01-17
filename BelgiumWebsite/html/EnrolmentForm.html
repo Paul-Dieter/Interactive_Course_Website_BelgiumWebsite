@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrolment Form</title>
+    <link rel="stylesheet" href="../styles/register.css">
+</head>
+<body>
+    <h1 class="Enrolment-Heading">Enrollment <span>Form</span></h1>
+    <form id="enrollmentForm" action="../index.html" method="get" class="form">
+        <div class="content">
+            <input type="text" name="name" class="input" required pattern="[a-z]+" placeholder="Enter your name">
+            <input type="text" name="surname" class="input" required pattern="[a-z]+" placeholder="Enter your surname">
+            <input type="tel" name="idnumber" class="input" required pattern="^[0-9]{13}" placeholder="Enter your ID number">
+            <input type="tel" name="phonenumber" class="input" required pattern="^[0-9]{10}" placeholder="Enter your phone number">
+            <input type="email" name="email" class="input" required placeholder="Enter your email address">
+            
+            <select name="degree" id="degree" class="input select" required>
+                <option value="">Please select your Degree</option>
+                <option value="BCOM">Bachelor of Computing</option>
+                <option value="BIT">Bachelor of Information Technology</option>
+                <option value="DIT">Diploma in Information Technology</option>
+                <option value="DDS">Diploma for Deaf Students</option>
+                <option value="CIT">Certificate of IT (Database Development)</option>
+                <option value="NIT">National Certificate of IT (Systems Development)</option>
+            </select>
+                        
+            <button type="submit" class="Enroll-button">Enroll</button>
+        </div>
+        <p id="output"></p>
+    </form>
+    <script src="../scripts/Enroll-script.js"></script>
+</body>
+</html>
